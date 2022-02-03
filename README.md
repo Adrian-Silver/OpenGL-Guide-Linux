@@ -37,3 +37,10 @@ How to Install OpenGL
 Cons of using OpenGL on Linux
 
 There is little documentation regarding how to tackle errors in.
+
+
+The example included in the repository can be used to test if the program works.
+Input the instructions below to test:
+
+g++ triangle.cc --lglut -lGL -lGLEW -lGLU -o triangle
+./triangle
